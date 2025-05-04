@@ -6,8 +6,6 @@
 
 This repository provides a guide and resources for developing Pega Constellation SDK components using React. The Pega Constellation SDKs enable developers to integrate Pega's ConstellationJS Engine APIs with alternative design systems, such as Material UI.
 
-The project is potentially used for [NJMCdirect](https://www.njmcdirect.com/) redesign.
-
 ## Prerequisites
 ---------------
 
@@ -44,10 +42,6 @@ To start developing with the React SDK, follow these steps:
 2. **Run the Application**:
 - Follow the instructions in the `package.json` file to start your application.
 
-- Get your hands dirty [Pega Constellation SDK and DX Components Hands-on](https://github.com/AOC-ITO/NJMC-Pega/blob/main/Pega%20Constellation%20SDK%20and%20DX%20Components%20Hands-on.pptx)
-- Check more details for Constellation SDK in [Pega Seminar Series - Constellation SDK.pptx](https://github.com/AOC-ITO/NJMC-Pega/blob/main/Pega%20Seminar%20Series%20-%20Constellation%20SDK.pptx).
-- Check more details for Constellation DX Components in [Pega Seminar Series - Constellation DX Components.pptx](https://github.com/AOC-ITO/NJMC-Pega/blob/main/Pega%20Seminar%20Series%20-%20Constellation%20DX%20Components.pptx).
-
 ## Resources
 ------------
 
@@ -57,11 +51,6 @@ To start developing with the React SDK, follow these steps:
 - **Constellation UI Gallery GitHub Repository**: [PegaSystems/constellation-ui-gallery](https://github.com/pegasystems/constellation-ui-gallery)
 - **Constellation UI Gallery GitHub Repository**: [PegaSystems/constellation-ui-gallery](https://github.com/pegasystems/constellation-ui-gallery)
 - **Material UI Components**: [Material UI/Components](https://mui.com/material-ui/getting-started/supported-components/)
-
-## License
--------
-
-New Jersey Courts Municipal ITO.
 
 ## Acknowledgments
 ----------------
@@ -80,6 +69,6 @@ Contributions are welcome! To contribute, please follow these steps:
 ## Collaborators and Contributors
 ------------
 - **Collaborators:**
-  - [Lei Zhong](https://github.com/LeiZhong722)
+  - [Lei Zhong](https://github.com/shzolly)
 - **Contributors:**
-  - [Lei Zhong](https://github.com/LeiZhong722)
+  - [Lei Zhong](https://github.com/shzolly)
