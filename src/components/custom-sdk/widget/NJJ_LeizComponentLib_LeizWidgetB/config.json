@@ -1,0 +1,23 @@
+{
+  "name": "NJJ_LeizComponentLib_LeizWidgetB",
+  "label": "Leiz Widget B",
+  "description": "Leiz Widget B for learning",
+  "organization": "NJJ",
+  "version": "0.0.1",
+  "library": "LeizComponentLib",
+  "allowedApplications": [],
+  "componentKey": "NJJ_LeizComponentLib_LeizWidgetB",
+  "type": "Widget",
+  "subtype": "CASE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+    {
+      "name": "label",
+      "label": "Label value",
+      "format": "TEXT"
+    }
+  ],
+  "defaultConfig": {
+    "label": "@L Leiz Widget B"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "NJJ_LeizComponentLib_MakePayment",
+  "label": "Make a Payment to Ticket",
+  "description": "Make a Payment to Ticket",
+  "organization": "NJJ",
+  "version": "0.0.1",
+  "library": "LeizComponentLib",
+  "allowedApplications": ["LeizOne"],
+  "componentKey": "NJJ_LeizComponentLib_MakePayment",
+  "type": "Template",
+  "subtype": "PAGE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+    {
+      "name": "useConfigurableLayout",
+      "label": "Use inline layout for insights",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "enableGetNextWork",
+      "label": "Enable Get next work",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "A",
+      "label": "Region A",
+      "format": "CONTENTPICKER",
+      "addTypeList": ["Widgets", "Views", "Insights"]
+    }
+  ],
+  "defaultConfig": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "NJJ_LeizComponentLib_MyTestWidget",
+  "label": "Widget for demo",
+  "description": "Widget for demo",
+  "organization": "NJJ",
+  "version": "0.0.1",
+  "library": "LeizComponentLib",
+  "allowedApplications": [],
+  "componentKey": "NJJ_LeizComponentLib_MyTestWidget",
+  "type": "Widget",
+  "subtype": "CASE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+    {
+      "name": "label",
+      "label": "Label value",
+      "format": "TEXT"
+    }
+  ],
+  "defaultConfig": {
+    "label": "@L Widget for demo"
+  }
+}

@@ -1,0 +1,62 @@
+import type { StoryObj } from '@storybook/react';
+import { PegaExtensionsQRCode } from './index';
+
+export default {
+  title: 'Fields/LeizQRCode',
+  argTypes: {
+    value: {
+      table: {
+        disable: true
+      }
+    },
+    getPConnect: {
+      table: {
+        disable: true
+      }
+    }
+  },
+  component: PegaExtensionsQRCode
+};
+
+const setPCore = () => {
+  (window as any).PCore = {
+    /* Nothing */
+  };
+};
+
+type Story = StoryObj<typeof PegaExtensionsQRCode>;
+export const Default: Story = {
+  render: args => {
+    setPCore();
+    const props = {
+      ...args,
+      getPConnect: () => {
+        return {
+          getStateProps: () => {
+            return {
+              value: 'QRCodeImg'
+            };
+          },
+          getActionsApi: () => {
+            return {
+              updateFieldValue: (prop: string, value: string) => {
+                console.log(`Updating property ${prop} with value: ${value}`);
+              }
+            };
+          }
+        };
+      }
+    };
+    return <PegaExtensionsQRCode {...props} />;
+  },
+  args: {
+    label: 'LeizQRCode',
+    value: '',
+    inputProperty: 'https://www.pega.com',
+    helperText: 'Scan with your phone',
+    testId: '',
+    validatemessage: '',
+    readOnly: false,
+    hideLabel: false
+  }
+};
